@@ -118,14 +118,6 @@ Charts wrapped in `ResponsiveContainer` for mobile responsiveness.
 ### Adding a New Health Metric
 Modify Dashboard's `healthMetrics` array - add status-colored icon, follow metric card CSS conventions.
 
-### Adding a New Route/Page
-1. Create `src/components/NewFeature/NewFeature.js` + `.css`
-2. Import in `App.js` and add `<Route>` under Layout
-3. Add menu entry to Layout's `menuItems` array
-4. Use Recharts or similar for data visualization
-
-### Updating ML Predictions
-Edit hardcoded `predictions` array in AIInsights.js - structure: `{ metric, current, predicted, trend, timeframe }`
 
 ---
 
